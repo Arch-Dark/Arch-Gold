@@ -1,5 +1,4 @@
-
-name: Deploy Journal de Trading
+name: Deploy ARCH GOLD
 
 on:
   push:
@@ -26,7 +25,6 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: 22
-          cache: npm
 
       - name: Installer les dépendances
         run: npm install
